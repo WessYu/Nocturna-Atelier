@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nocturna Atelier, joias autorais em ouro, onix, diamantes negros e esmeraldas.">
+  <title>Nocturna Atelier | Joias de Luxo Dark</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header" data-header>
+    <a class="brand" href="#" aria-label="Nocturna Atelier">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 64 64" role="img">
+          <path d="M32 4 52 18v28L32 60 12 46V18L32 4Z"></path>
+          <path d="M21 22h22L32 45 21 22Z"></path>
+          <path d="M25 22 32 12l7 10"></path>
+        </svg>
+      </span>
+      <span>
+        <strong>Nocturna</strong>
+        <small>Atelier</small>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Navegacao principal">
+      <a href="#colecoes">Colecoes</a>
+      <a href="#pecas">Pecas</a>
+      <a href="#atelier">Atelier</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button class="icon-button cart-button" type="button" aria-label="Abrir sacola">
+      <span class="cart-count" data-cart-count>0</span>
+      <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M6.5 8.5h11l.8 11H5.7l.8-11Z"></path>
+        <path d="M9 8.5V7a3 3 0 0 1 6 0v1.5"></path>
+      </svg>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Alta joalheria em tons escuros</p>
+        <h1>Nocturna Atelier</h1>
+        <p class="hero-text">Joias dramaticas, lapidadas para noite: ouro antigo, onix, diamantes negros e esmeraldas em edicoes limitadas.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#pecas">Ver pecas</a>
+          <a class="ghost-button" href="#atelier">Conhecer atelier</a>
+        </div>
+        <ul class="hero-stats" aria-label="Diferenciais da loja">
+          <li><strong>18k</strong><span>ouro certificado</span></li>
+          <li><strong>72h</strong><span>envio segurado</span></li>
+          <li><strong>1/40</strong><span>series numeradas</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-art reveal" style="--delay: 120ms">
+        <img src="assets/nocturna-hero.jpg" alt="Joia dourada em estudio escuro da Nocturna Atelier">
+        <div class="shine-card">
+          <span>Nova colecao</span>
+          <strong>Eclipse Noir</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Promessa da marca">
+      <div>
+        <span>Diamantes negros</span>
+        <span>Ouro antigo</span>
+        <span>Esmeraldas profundas</span>
+        <span>Feito a mao</span>
+        <span>Diamantes negros</span>
+        <span>Ouro antigo</span>
+      </div>
+    </section>
+
+    <section class="section" id="colecoes">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Curadoria</p>
+        <h2>Colecoes para presenca absoluta</h2>
+        <p>Cada linha combina contraste, brilho preciso e acabamento escuro para uma vitrine sofisticada.</p>
+      </div>
+
+      <div class="collection-grid">
+        <article class="collection-card reveal">
+          <span>01</span>
+          <h3>Eclipse Noir</h3>
+          <p>Aneis e solitarios com gemas escuras e aro de ouro polido.</p>
+        </article>
+        <article class="collection-card reveal" style="--delay: 80ms">
+          <span>02</span>
+          <h3>Velvet Aura</h3>
+          <p>Colares em camadas com pingentes de esmeralda e diamantes champagne.</p>
+        </article>
+        <article class="collection-card reveal" style="--delay: 160ms">
+          <span>03</span>
+          <h3>Midnight Line</h3>
+          <p>Brincos, braceletes e chokers com silhueta arquitetonica.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section product-section" id="pecas">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Vitrine</p>
+        <h2>Pecas assinadas</h2>
+        <p>Selecao pronta para compra, com checkout visual e interacoes suaves.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card reveal">
+          <div class="product-media">
+            <img src="assets/product-ring.jpg" alt="Anel Orbe Eclipse em ouro com diamante negro">
+          </div>
+          <div class="product-info">
+            <span>Anel</span>
+            <h3>Orbe Eclipse</h3>
+            <p>Ouro 18k, diamante negro central e halo champagne.</p>
+            <div class="product-row">
+              <strong>R$ 8.940</strong>
+              <button type="button" data-add-cart>Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--delay: 80ms">
+          <div class="product-media">
+            <img src="assets/product-necklace.jpg" alt="Colar Esmeralda Vesper em ouro antigo">
+          </div>
+          <div class="product-info">
+            <span>Colar</span>
+            <h3>Esmeralda Vesper</h3>
+            <p>Pingente facetado, corrente em ouro antigo e microcravacao.</p>
+            <div class="product-row">
+              <strong>R$ 12.600</strong>
+              <button type="button" data-add-cart>Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--delay: 160ms">
+          <div class="product-media">
+            <img src="assets/product-earrings.jpg" alt="Brincos Onyx Drip com onix preto e ouro">
+          </div>
+          <div class="product-info">
+            <span>Brincos</span>
+            <h3>Onyx Drip</h3>
+            <p>Par assimetrico em onix polido, ouro espelhado e diamantes.</p>
+            <div class="product-row">
+              <strong>R$ 6.780</strong>
+              <button type="button" data-add-cart>Adicionar</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" style="--delay: 240ms">
+          <div class="product-media">
+            <img src="assets/product-bracelet.jpg" alt="Bracelete Noctis Cuff em ouro com pedras escuras">
+          </div>
+          <div class="product-info">
+            <span>Bracelete</span>
+            <h3>Noctis Cuff</h3>
+            <p>Bracelete rigido com diamantes negros e detalhes em esmeralda.</p>
+            <div class="product-row">
+              <strong>R$ 15.420</strong>
+              <button type="button" data-add-cart>Adicionar</button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="atelier" id="atelier">
+      <div class="atelier-panel reveal">
+        <p class="eyebrow">Atelier privado</p>
+        <h2>Luxo escuro, acabamento obsessivo.</h2>
+        <p>A Nocturna Atelier desenha pecas para quem prefere brilho com misterio. Cada joia passa por polimento manual, autenticacao de pedras e embalagem em veludo preto lacrada.</p>
+        <div class="atelier-list">
+          <span>
+            <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 9h16l-8 11L4 9Z"></path>
+              <path d="M7 4h10l3 5H4l3-5Z"></path>
+              <path d="m9 9 3 11 3-11"></path>
+            </svg>
+            Certificado de autenticidade
+          </span>
+          <span>
+            <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 3 19 6v5c0 4.5-2.8 8.2-7 10-4.2-1.8-7-5.5-7-10V6l7-3Z"></path>
+              <path d="m8.8 12.2 2.1 2.1 4.5-4.8"></path>
+            </svg>
+            Envio segurado
+          </span>
+          <span>
+            <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2v6"></path>
+              <path d="M12 16v6"></path>
+              <path d="M2 12h6"></path>
+              <path d="M16 12h6"></path>
+              <path d="m5 5 4.2 4.2"></path>
+              <path d="m14.8 14.8L19 19"></path>
+              <path d="m19 5-4.2 4.2"></path>
+              <path d="m9.2 14.8L5 19"></path>
+            </svg>
+            Ajuste sob medida
+          </span>
+        </div>
+      </div>
+      <div class="atelier-visual reveal" style="--delay: 120ms">
+        <div class="gem gem-one"></div>
+        <div class="gem gem-two"></div>
+        <div class="gem gem-three"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contato">
+    <div>
+      <a class="brand footer-brand" href="#" aria-label="Nocturna Atelier">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 64 64" role="img">
+            <path d="M32 4 52 18v28L32 60 12 46V18L32 4Z"></path>
+            <path d="M21 22h22L32 45 21 22Z"></path>
+            <path d="M25 22 32 12l7 10"></path>
+          </svg>
+        </span>
+        <span><strong>Nocturna</strong><small>Atelier</small></span>
+      </a>
+      <p>Joias autorais em series limitadas. Atendimento digital, entrega segurada e acabamento de atelier.</p>
+    </div>
+    <form class="footer-form">
+      <label for="email">Receba lancamentos privados</label>
+      <div>
+        <input id="email" type="email" placeholder="seu@email.com" required>
+        <button type="submit">Entrar</button>
+      </div>
+    </form>
+  </footer>
+
+  <div class="toast" data-toast role="status" aria-live="polite">Peca adicionada a sacola.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
