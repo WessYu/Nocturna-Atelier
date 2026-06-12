@@ -1,22 +1,25 @@
 # Nocturna Atelier
 
-Landing page dark premium para uma loja de joias autorais, com identidade visual propria, imagens geradas, animacoes suaves e experiencia responsiva.
+Loja dark premium para joias autorais, com identidade visual própria, imagens geradas, animações suaves, experiência responsiva e backend funcional em Python.
 
 ## Sobre o projeto
 
-A **Nocturna Atelier** e uma vitrine de luxo para joias em ouro antigo, onix, diamantes negros e esmeraldas. O layout foi pensado para transmitir sofisticacao, exclusividade e alto contraste visual, usando uma paleta escura com detalhes em dourado.
+A **Nocturna Atelier** é uma vitrine de luxo para joias em ouro antigo, ônix, diamantes negros e esmeraldas. O layout foi pensado para transmitir sofisticação, exclusividade e alto contraste visual, usando uma paleta escura com detalhes em dourado.
 
 ## Recursos
 
-- Nome e marca proprios: Nocturna Atelier
+- Nome e marca próprios: Nocturna Atelier
 - Logo em SVG criado para o projeto
 - Favicon personalizado
 - Imagens locais otimizadas para hero e produtos
 - Cards de produto com hover e zoom suave
-- Animacoes no scroll
-- Carrinho visual com contador e toast
+- Animações no scroll
+- API de produtos, sacola, newsletter e pedidos
+- Carrinho funcional com persistência local por sessão
+- Checkout com criação de pedido
+- Cadastro de e-mail para lançamentos privados
 - Layout responsivo para desktop e mobile
-- Sem dependencias externas de icones ou fontes
+- Sem dependências externas de ícones ou fontes
 
 ## Estrutura
 
@@ -32,28 +35,38 @@ src/
   index.html
   script.js
   style.css
+data/
+  products.json
+  store.json
+server.py
 ```
 
 ## Como executar
 
-Abra o arquivo abaixo diretamente no navegador:
+Use Python 3 e execute:
 
-```text
-src/index.html
+```bash
+py server.py
 ```
 
-Nao precisa instalar dependencias.
+Depois acesse:
+
+```text
+http://localhost:3000
+```
+
+O backend expõe rotas em `/api/products`, `/api/cart`, `/api/newsletter` e `/api/orders`.
 
 ## Autor e contato
 
 Desenvolvido por **Wesley Cruz**.
 
-- Usuario: wesley.cruz
+- Usuário: wesley.cruz
 - Projeto: Nocturna Atelier
-- Github: WessYu
+- GitHub: WessYu
 - Email: wess.c@proton.me
 
 
 ## Licenca
 
-Este projeto esta licenciado sob a licenca MIT. Veja o arquivo [LICENSE.txt](LICENSE.txt).
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE.txt](LICENSE.txt).

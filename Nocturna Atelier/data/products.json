@@ -1,0 +1,42 @@
+[
+  {
+    "id": "orbe-eclipse",
+    "name": "Orbe Eclipse",
+    "category": "Anel",
+    "description": "Ouro 18k, diamante negro central e halo champagne.",
+    "priceCents": 894000,
+    "stock": 8,
+    "image": "assets/product-ring.jpg",
+    "alt": "Anel Orbe Eclipse em ouro com diamante negro"
+  },
+  {
+    "id": "esmeralda-vesper",
+    "name": "Esmeralda Vesper",
+    "category": "Colar",
+    "description": "Pingente facetado, corrente em ouro antigo e microcravação.",
+    "priceCents": 1260000,
+    "stock": 5,
+    "image": "assets/product-necklace.jpg",
+    "alt": "Colar Esmeralda Vesper em ouro antigo"
+  },
+  {
+    "id": "onyx-drip",
+    "name": "Onyx Drip",
+    "category": "Brincos",
+    "description": "Par assimétrico em ônix polido, ouro espelhado e diamantes.",
+    "priceCents": 678000,
+    "stock": 10,
+    "image": "assets/product-earrings.jpg",
+    "alt": "Brincos Onyx Drip com ônix preto e ouro"
+  },
+  {
+    "id": "noctis-cuff",
+    "name": "Noctis Cuff",
+    "category": "Bracelete",
+    "description": "Bracelete rígido com diamantes negros e detalhes em esmeralda.",
+    "priceCents": 1542000,
+    "stock": 4,
+    "image": "assets/product-bracelet.jpg",
+    "alt": "Bracelete Noctis Cuff em ouro com pedras escuras"
+  }
+]
