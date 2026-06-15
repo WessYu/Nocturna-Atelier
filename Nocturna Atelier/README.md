@@ -1,49 +1,49 @@
 # Nocturna Atelier
 
-Loja dark premium para joias autorais, com identidade visual própria, imagens geradas, animações suaves, experiência responsiva e backend funcional em Python.
+Loja premium fictícia desenvolvida como projeto de portfólio, com foco em identidade visual, responsividade, interface elegante e organização de código.
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-111827?style=for-the-badge)
+![HTML](https://img.shields.io/badge/HTML5-111827?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS](https://img.shields.io/badge/CSS3-111827?style=for-the-badge&logo=css3&logoColor=1572B6)
+![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python&logoColor=3776AB)
+
+---
 
 ## Sobre o projeto
 
-A **Nocturna Atelier** é uma vitrine de luxo para joias em ouro antigo, ônix, diamantes negros e esmeraldas. O layout foi pensado para transmitir sofisticação, exclusividade e alto contraste visual, usando uma paleta escura com detalhes em dourado.
+A **Nocturna Atelier** é uma experiência de loja com visual escuro, elegante e responsivo. O projeto combina interface estática, interações com JavaScript e um servidor Python simples para simular rotas de produto, sacola, newsletter e pedidos.
 
-## Recursos
+---
 
-- Nome e marca próprios: Nocturna Atelier
-- Logo em SVG criado para o projeto
+## Funcionalidades
+
+- Identidade visual própria
+- Logo em SVG
 - Favicon personalizado
-- Imagens locais otimizadas para hero e produtos
-- Cards de produto com hover e zoom suave
+- Imagens locais
+- Cards de produto com hover
 - Animações no scroll
-- API de produtos, sacola, newsletter e pedidos
-- Carrinho funcional com persistência local por sessão
+- API simples com Python
+- Carrinho com persistência local por sessão
 - Checkout com criação de pedido
-- Cadastro de e-mail para lançamentos privados
 - Layout responsivo para desktop e mobile
-- Sem dependências externas de ícones ou fontes
 
-## Estrutura
+---
 
-```text
-src/
-  assets/
-    favicon.svg
-    nocturna-hero.jpg
-    product-bracelet.jpg
-    product-earrings.jpg
-    product-necklace.jpg
-    product-ring.jpg
-  index.html
-  script.js
-  style.css
-data/
-  products.json
-  store.json
-server.py
-```
+## Tecnologias
 
-## Como executar
+- HTML5
+- CSS3
+- JavaScript
+- Python
+- JSON
+- Git e GitHub
+- Netlify para versão estática
 
-Use Python 3 e execute:
+---
+
+## Como executar localmente
 
 ```bash
 py server.py
@@ -55,18 +55,25 @@ Depois acesse:
 http://localhost:3000
 ```
 
-O backend expõe rotas em `/api/products`, `/api/cart`, `/api/newsletter` e `/api/orders`.
+---
 
-## Autor e contato
+## Outros projetos
+
+- [Portfólio Front-end](https://github.com/WessYu/Portfolio---React)
+- [StudyFlow](https://github.com/WessYu/studyflow)
+- [Vinícola Serra Dourada](https://github.com/WessYu/vinicola-serra-dourada)
+- [Travelgram](https://github.com/WessYu/Travelgram)
+- [Turismo](https://github.com/WessYu/Turismo)
+
+---
+
+## Autor
 
 Desenvolvido por **Wesley Cruz**.
 
-- Usuário: wesley.cruz
-- Projeto: Nocturna Atelier
-- GitHub: WessYu
+- GitHub: [@WessYu](https://github.com/WessYu)
 - Email: wess.c@proton.me
 
+---
 
-## Licenca
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE.txt](LICENSE.txt).
+> Projeto criado para demonstrar habilidades em interface premium, responsividade, JavaScript e integração simples com backend.
